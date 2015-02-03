@@ -1,33 +1,27 @@
 body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
 	margin: 0; padding: 0; border: 0;
-}
-
-body {
 	background: #fffff url(images/bg.png);
 	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
+	background-position: center top;
+        min-width: 800px;
 }
 
 #banner{
 background-image:url("http://i.imgur.com/CkfDAvt.png");
 height:340px;
-background-position: center top;
 
 }
 
 #content{
 background-image:url("http://i.imgur.com/CEs6bjJ.png");
 height:700px;
-background-position: center top;
 
 }
 
 #footer{
 background-image:url("http://i.imgur.com/HNPPdjQ.png");
 height:200px;
-background-position: center top;
-
 
 }
 
 	}
-	

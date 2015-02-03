@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 	background: #fffff url(images/bg.png);
 	font: 16px Helvetica, Arial, Sans-Serif; color: #636363; line-height: 24px;
 	background-position: center top;
-        min-width: 800px;
+    min-width: 800px;
 }
 
 #banner{
@@ -25,3 +25,5 @@ height:200px;
 }
 
 	}
+	
+	

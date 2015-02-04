@@ -18,6 +18,12 @@ height:500px;
 
 }
 
+#video {
+    display: block;
+    margin: 0 auto;
+    padding-top: 90px;
+}
+
 #footer{
 background-image:url("http://i.imgur.com/hFNirc0.png");
 height:200px;

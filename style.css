@@ -5,10 +5,13 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 	color: #636363;
 	line-height: 24px;
 	background-position: center top;
+}
+
+body {
     min-width: 800px;
 }
 
-#banner{
+#banner {
     position: relative;
     background-image: url(http://i.imgur.com/YSJkxoG.png);
     repeat: repeat;
@@ -43,23 +46,61 @@ h2 {
 
 #content {
     background-color: white;
-    height:600px;
 }
 
 #video {
+    padding: 30px;
+    background-color: #ddd;
+    margin: 0 auto;
+    width: 640px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+}
+
+#video iframe {
     display: block;
     margin: 0 auto;
-    padding-top: 90px;
 }
 
 #footer {
-    position:relative;
+    position: relative;
     background-image: url("http://i.imgur.com/qZ8ZA1m.png");
     repeat: repeat;
 }
-.footer-column {
-    display: block;
+#footer-inner {
+    width: 640px;
     margin: 0 auto;
+    height: 220px;
+}
+
+.footer-column {
+    width: 33.33%;
+    width: calc(100% / 3);
+    text-align: center;
+    
+    float: left;
+    
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.footer-column h3 {
+    color: #eee;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.footer-column a {
+    display: block;
+    /* background-color: rgba(255, 255, 2555, 0.8); */
+    width: 150px;
+    height: 76px;
+    margin: 20px auto;
+    text-indent: -9999px;
+    overflow: hidden;
 }
 
 #button {
@@ -67,3 +108,7 @@ h2 {
     width: 200px;
     overflow: hidden;
 }
+
+#link-youtube   { background-image: url("http://i.imgur.com/oDClnRD.png") }
+#link-cv        { background-image: url("http://i.imgur.com/e57AQ4U.png") }
+#link-creations { background-image: url("http://i.imgur.com/vNpd8Sf.png") }

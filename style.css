@@ -7,29 +7,58 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 #banner{
-background-image:url("http://i.imgur.com/NaIcOho.png");
-height:500px;
+    position:relative;
+    background-image:url(http://i.imgur.com/YSJkxoG.png);
+    repeat:repeat;
+	height: 500px;
+}
 
+h1 {
+padding-top: 150px;
+font-size: 250px;
+text-align: center;
+font-family: "Tw Cen MT Condensed";
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+font-weight: bold;
+color: #0078ff;
+opacity: 0.7;
+}
+
+h2 {
+padding-top: 20px;
+font-size: 100px;
+text-align: center;
+font-family: "Tw Cen MT Condensed" Extra, Bold;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: white;
+font-weight: bold;
+color: #44494f;
+opacity: 0.7;
 }
 
 #content{
-background-image:url("http://i.imgur.com/W46UdzH.png");
-height:500px;
-
+background-color: white;
+height:600px;
 }
 
 #video {
-    display: block;
-    margin: 0 auto;
+display: block;
+margin: 0 auto;
     padding-top: 90px;
 }
 
 #footer{
-background-image:url("http://i.imgur.com/RLYaPrx.png");
-height:200px;
-
+position:relative;
+background-image:url("http://i.imgur.com/qZ8ZA1m.png");
+repeat:repeat;
+}
+.footer-column {
+display: block;
+margin: 0 auto;
 }
 
+#button { height: 100px; width: 200px; overflow: hidden; }
 	}
 	
 	

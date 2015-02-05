@@ -16,7 +16,7 @@ body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldse
 }
 
 h1 {
-padding-top: 150px;
+padding-top: 40px;
 font-size: 250px;
 line-height: 100%;
 text-align: center;
@@ -64,5 +64,4 @@ margin: 0 auto;
 
 #button { height: 100px; width: 200px; overflow: hidden; }
 	}
-	
 	

@@ -15,33 +15,13 @@ body {
     position: relative;
     background-image: url(http://i.imgur.com/YSJkxoG.png);
     repeat: repeat;
-	height: 500px;
+	height: 450px;
 }
 
-h1 {
-    padding-top: 40px;
-    font-size: 250px;
-    line-height: 100%;
-    text-align: center;
-    font-family: "Tw Cen MT Condensed";
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    font-weight: bold;
-    color: #0078ff;
-    opacity: 0.7;
-}
-
-h2 {
-    padding-top: 20px;
-    font-size: 100px;
-    line-height: 100%;
-    text-align: center;
-    font-family: "Tw Cen MT Condensed" Extra, Bold;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
-    font-weight: bold;
-    color: #44494f;
-    opacity: 0.7;
+#header {
+    display: block;
+    margin: 0 auto;
+	padding: 60px;
 }
 
 #content {

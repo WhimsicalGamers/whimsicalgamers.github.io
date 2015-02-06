@@ -29,7 +29,7 @@ body {
 }
 
 #video {
-    padding: 30px;
+    padding: 15px;
     background-color: #ddd;
     margin: 0 auto;
     width: 640px;
@@ -83,11 +83,6 @@ body {
     overflow: hidden;
 }
 
-#button {
-    height: 100px;
-    width: 200px;
-    overflow: hidden;
-}
 
 #link-youtube   { background-image: url("http://i.imgur.com/oDClnRD.png") }
 #link-cv        { background-image: url("http://i.imgur.com/e57AQ4U.png") }
